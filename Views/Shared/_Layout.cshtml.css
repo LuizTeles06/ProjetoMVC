@@ -1,0 +1,103 @@
+﻿/* Documentation: https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification */
+
+/* Navbar */
+a.navbar-brand {
+  white-space: nowrap;
+  text-align: center;
+  word-break: break-word;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #ff5722; /* Cor vibrante */
+}
+
+/* Links */
+a {
+  color: #ff9800; /* Laranja vibrante */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e65100; /* Escurecimento no hover */
+  text-decoration: underline;
+}
+
+/* Buttons */
+.btn-primary {
+  color: #fff;
+  background-color: #4caf50; /* Verde vivo */
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.2rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #388e3c; /* Verde mais escuro no hover */
+  transform: scale(1.05); /* Efeito de zoom */
+}
+
+/* Navigation Pills */
+.nav-pills .nav-link.active, 
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #2196f3; /* Azul vibrante */
+  border-radius: 0.5rem;
+}
+
+/* Borders */
+.border-top {
+  border-top: 2px solid #ff9800; /* Bordas coloridas */
+}
+
+.border-bottom {
+  border-bottom: 2px solid #4caf50;
+}
+
+/* Box Shadow */
+.box-shadow {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra mais destacada */
+}
+
+/* Buttons (General) */
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+  background-color: #ff5722; /* Vermelho vibrante */
+  color: #fff;
+  border: 2px solid #ff5722;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button.accept-policy:hover {
+  background-color: #e64a19; /* Vermelho mais escuro no hover */
+  color: #fff;
+  border-color: #d84315;
+}
+
+/* Footer */
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: #673ab7; /* Roxo vivo */
+  color: #fff;
+  text-align: center;
+  font-size: 0.9rem;
+  border-top: 2px solid #ff9800;
+}
+
+/* General Enhancements */
+body {
+  font-family: 'Arial', sans-serif;
+  color: #212529;
+  background-color: #f4f4f4; /* Cinza claro */
+}
+
+.container {
+  max-width: 1200px;
+  margin:
+}

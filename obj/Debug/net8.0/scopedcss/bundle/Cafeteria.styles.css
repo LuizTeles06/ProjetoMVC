@@ -1,0 +1,104 @@
+/* _content/Cafeteria/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Documentation: https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification */
+
+/* Navbar */
+a.navbar-brand[b-j2a2liaspr] {
+  white-space: nowrap;
+  text-align: center;
+  word-break: break-word;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #ff5722; /* Cor vibrante */
+}
+
+/* Links */
+a[b-j2a2liaspr] {
+  color: #ff9800; /* Laranja vibrante */
+  text-decoration: none;
+}
+
+a:hover[b-j2a2liaspr] {
+  color: #e65100; /* Escurecimento no hover */
+  text-decoration: underline;
+}
+
+/* Buttons */
+.btn-primary[b-j2a2liaspr] {
+  color: #fff;
+  background-color: #4caf50; /* Verde vivo */
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.2rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover[b-j2a2liaspr] {
+  background-color: #388e3c; /* Verde mais escuro no hover */
+  transform: scale(1.05); /* Efeito de zoom */
+}
+
+/* Navigation Pills */
+.nav-pills .nav-link.active[b-j2a2liaspr], 
+.nav-pills .show > .nav-link[b-j2a2liaspr] {
+  color: #fff;
+  background-color: #2196f3; /* Azul vibrante */
+  border-radius: 0.5rem;
+}
+
+/* Borders */
+.border-top[b-j2a2liaspr] {
+  border-top: 2px solid #ff9800; /* Bordas coloridas */
+}
+
+.border-bottom[b-j2a2liaspr] {
+  border-bottom: 2px solid #4caf50;
+}
+
+/* Box Shadow */
+.box-shadow[b-j2a2liaspr] {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra mais destacada */
+}
+
+/* Buttons (General) */
+button.accept-policy[b-j2a2liaspr] {
+  font-size: 1rem;
+  line-height: inherit;
+  background-color: #ff5722; /* Vermelho vibrante */
+  color: #fff;
+  border: 2px solid #ff5722;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button.accept-policy:hover[b-j2a2liaspr] {
+  background-color: #e64a19; /* Vermelho mais escuro no hover */
+  color: #fff;
+  border-color: #d84315;
+}
+
+/* Footer */
+.footer[b-j2a2liaspr] {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: #673ab7; /* Roxo vivo */
+  color: #fff;
+  text-align: center;
+  font-size: 0.9rem;
+  border-top: 2px solid #ff9800;
+}
+
+/* General Enhancements */
+body[b-j2a2liaspr] {
+  font-family: 'Arial', sans-serif;
+  color: #212529;
+  background-color: #f4f4f4; /* Cinza claro */
+}
+
+.container[b-j2a2liaspr] {
+  max-width: 1200px;
+  margin:
+}
